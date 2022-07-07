@@ -1,0 +1,19 @@
+ Pratica: criação de um programa   feito no bloco de notas ; compilado e executado; com obs;
+ #
+ #
+ ---------o arquivo criado no bloco de notas
+ public class PrimeiroPrograma {
+	public static void main(String args[]) {
+		System.out.println("Hello World!");
+	}
+}
+----------------------------------------------------
+ No CDM 
+ 
+ C:\Users\Samsung>cd Documents                                       *ir para o local que criou o arquivo/programa
+ C:\Users\Samsung\Documents>javac PrimeiroPrograma.java              * usar "javac" para compilar o arquivo que se criou
+ C:\Users\Samsung\Documents>                                         * não aparece nada ; ou seja funcionou e nao ocorreu nenhum erro; na pasta em que esta o arquivo aparecera um novo arquivo com o mesmo nome do inicial com o final ".class" ou seja o arquivo compilado
+ C:\Users\Samsung\Documents>java PrimeiroPrograma                    * executara o programa compilado
+ Hello World!                                                        * leu o programa
+ 
+ ---------------
