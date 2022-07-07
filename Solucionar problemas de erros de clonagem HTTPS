@@ -1,0 +1,41 @@
+Solucionar problemas de erros de clonagem
+Existem alguns erros comuns ao usar HTTPS com o Git. Esses erros normalmente indicam que você tem uma versão antiga do Git ou que você não tem acesso ao repositório.
+Segue aqui um exemplo de erro HTTPS que você pode receber:
+> erro: A URL solicitada retornou o erro: 401 ao acessar
+> https://github.com/user/repo.git/info/refs?service=git-receive-pack
+> fatal: solicitação HTTP rejeitada
+#
+> Erro: A URL solicitada retornou o erro: 403 ao acessar
+> https://github.com/user/repo.git/info/refs
+> fatal: solicitação HTTP rejeitada
+#
+> Erro: https://github.com/user/repo.git/info/refs not found: você executou o git
+> update-server-info no servidor?
+#
+Confirme que o remote está correto
+O repositório que você está tentando fazer fetch deve existir em GitHub.com e a URL diferencia maiúsculas de minúsculas.
+Você pode localizar a URL do repositório local abrindo a linha de comando e digitando git remote -v:
+#
+Forneça um token de acesso
+#
+Verifique suas permissões
+Quando for solicitado um nome e senha, certifique-se de usar uma conta que tenha acesso ao repositório.
+#
+Substitua por SSH
+Se você configurou as chaves SSH previamente, é possível usar a URL clone SSH em vez de HTTPS.
+#
+Erro: repositório não encontrado
+Se você vir este erro ao clonar um repositório, significa que o repositório não existe ou que você não tem permissão para acessá-lo. Existem algumas soluções para este erro, dependendo da causa.
+#
+Verifique a ortografia
+Erros de digitação acontecem e os nomes dos repositórios diferenciam maiúsculas de minúsculas
+#
+Verifique as permissões
+Se você está tentando clonar um repositório privado, mas não tem permissão para visualizar o repositório, ocorrerá esse erro.
+#
+Verifique seu acesso SSH
+Em raras circunstâncias, você pode não ter o devido acesso SSH a um repositório.
+#
+Erro: HEAD remote faz referência a um ref inexistente, não é possível fazer checkout
+O erro ocorre se o branch padrão de um repositório foi excluído em GitHub.com.
+#
