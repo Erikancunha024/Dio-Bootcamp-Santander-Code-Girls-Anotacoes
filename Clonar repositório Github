@@ -1,0 +1,10 @@
+
+Ao criar um repositório no GitHub.com, ele passa a existir como um repositório remoto. É possível clonar o repositório para criar uma cópia local no seu computador e sincronizar entre os dois locais.
+1-No GitHub.com, navegue até a página principal do repositório.
+2-Acima da lista de arquivos, clique em  code.
+3- Copie a URL para o repositório.
+4-Abra Git Bash.
+5-Altere o diretório de trabalho atual para o local em que deseja ter o diretório clonado.
+6-Digite git clone (clonar git) e cole a URL que você copiou anteriormente.
+7-Pressione Enter para criar seu clone local.
+8-Pronto!
