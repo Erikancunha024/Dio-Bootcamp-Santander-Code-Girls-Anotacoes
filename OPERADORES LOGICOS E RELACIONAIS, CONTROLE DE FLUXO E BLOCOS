@@ -1,0 +1,97 @@
+->OPERADORES LOGICOS E RELACIONAIS, CONTROLE DE FLUXO E BLOCOS
+
+-->OPERADORES RELACIONAIS
+-TIPOS: SIMILARIEDADE(IGUAL , DIFERENTE)
+
+IGUALDADE ==
+DIFERENÇA !=
+
+
+	TAMANHO ( MAIOR, MAIOR IGUAL, MENOR, MENOR IGUAL)
+
+MAIOR >
+MAIOR IGUAL >=
+MENOR <
+MENOR IGUAL <=
+
+
+--EXEMPLOS
+BOLEANO E STRING NAO SE FAZ COMPARACAO >= <= PQ NORMALEMNET DA ERRO DE COPILAÇÃO
+
+-- para para se comprar dados diferentes mais q apresentam similaridades (ex ambos numericos)
+
+--- EXERCITANDO PRATICO
+CRIAR UM SIMPLES PROJETO PARA REALIZAR COMPARAÇOES, ALEM DE UTILIZAR OS DEMAIS TIPOS DE DADOS NÃO APRESENTADOS
+
+
+-->OPERADORES LOGICOS
+- TIPOS:
+CONJUÇÃO
+
+operaçaõ logica que so e veradeira qnd amboas os operando ou expressoes sao verdade
+simbologia : &&
+terminologia: and(e)
+
+
+DISJUNÇÃO  
+operaçao que so e falsa qnd ambos os operandos ou expressoes envolvidadas sao falsos.
+simbologia ||
+terminologia : or(ou)
+
+
+
+DISJUNÇAO EXCLUSIVA
+operaao que so e verdade qnd ambos os operandos ou expressoes sao oposts
+simbologia ^
+terminologia xor
+
+
+NEGAÇÃO
+
+operaçaõ que inverte o valor logico de um operando ou expressão
+
+simbologia: !
+terminologia: inverção
+
+-- Exemplos e boas praticas
+
+-->não são operadores logicos/ mexem com bytes
+-OPERADORES BITWISE: & e |
+-OPERADORES shift : ~ , >>, >>>, <<
+
+-->CONTROLE DE FLUXO
+TIPOS:
+DECISAO: estrutura que avalia uma condição booleana ou variavel p direcionar o fluxo de execução
+
+ if(se), if-else, if-else-if, switch (escolha)  e operador ternario
+
+
+REPETIÇÃO: for, whilw, do while
+INTERRUPÇÃO : break , continue e return
+
+
+-->BLOCOS
+-TIPOS:
+LOCAIS: DENTRO DE METODOS
+ESTATICOS: DENTRO DE CLASSES
+INSTANCIA: DENTRO DE CLASSES
+
+CRIAÇAO:
+LOCAIS: { ...} ISSO E UM BLOCO DE EXECUÇÃO
+
+EXEMPLOS
+ex 1if (autorizado){
+	carregar perfil
+	DirecionarPaginaPrincipal
+}
+
+ex2 if(menoridde)
+	direcionarpaginaproibido
+
+
+
+
+
+
+
+
