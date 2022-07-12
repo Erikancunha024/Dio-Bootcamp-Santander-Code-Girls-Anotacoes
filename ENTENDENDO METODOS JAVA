@@ -1,0 +1,34 @@
+-->ENTENDENDO METODOS JAVA
+
+
+-->CRIAÇÃO DE METODOS
+ - <?VISIBILIDADE?> <?TIPO?><?MODIFICADOS?> RETORNO NOME(<?PARAMETROS?>) <?EXECOES?> CORPO
+ = ? OPCIONAIS
+
+-ONDE :  V = PUBIC PROTECTED OU PRIVATE
+T = CONCETRO OU ABTRATO
+M = STATIC OU FINAL
+R =TIPO DE DADO OU VOID
+N =NOME QUE E FORNECIDO AO METODO
+P =PARAMETRO QUE PODE RECEBER
+E =EXXECOES QUE POD LANÇAR
+C =CODIGO QUE POSSUI VAZIO
+
+- EXEMPLOS:
+public String getNome (){...}
+public double calcularTotalNota() {...}
+public int verificarDistanccia(int cordenada1, int cordenada2) {...}
+public abstract void executar ();
+public void alterarFabricante (Fabricante fabricante) {...}
+pubic Relatorio gerarDadosAnaliticos(Cliente cliente, List<Compra> compras) {...}
+
+public static R N(P) {...}
+
+-
+nome_de_classe.nome_do_metodo(); ou nome_da_classe.nome_do_metodo(...)
+
+nome_do_objeto.nome_do_metodo();nome_do_objeto.nome_do_metodo(...)
+
+
+Math.random(); ou Math.sqrt(4);
+usuaro.getEmail(); ou usuario.alterar(endereço)
